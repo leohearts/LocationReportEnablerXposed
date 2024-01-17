@@ -22,7 +22,8 @@
             android:name="xposedscope"
             android:resource="@array/hook_scope" />
 
-        <activity android:name=".SettingActivity">
+        <activity android:name=".SettingActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

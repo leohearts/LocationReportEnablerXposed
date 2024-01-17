@@ -16,8 +16,6 @@ public class SettingActivity extends PreferenceActivity implements SharedPrefere
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getPreferenceManager().setSharedPreferencesMode(MODE_WORLD_READABLE);
-
         addPreferencesFromResource(R.xml.preferences);
     }
 
