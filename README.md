@@ -1,7 +1,7 @@
 LocationReportEnablerXposed
 =====================
 
-A simple android app to enable Google Location Report, Google Now, Google Personal Safety (Emergency sharing), Google maps (photos/reviews) and related functions in China.
+A simple android app to enable Google Location Report, Google Now, Google Personal Safety (Emergency sharing), Google maps (photos/reviews) and related functions in restricted areas .
 
 This module simply hooks `TelephonyManager` so in theory you can also try it on other apps.
 
